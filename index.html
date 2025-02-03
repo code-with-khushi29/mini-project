@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Topic Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Topic Generator</h1>
+        <input type="text" id="keyword" placeholder="Enter a keyword">
+        <select id="category">
+            <option value="technology">Technology</option>
+            <option value="health">Health</option>
+            <option value="lifestyle">Lifestyle</option>
+        </select>
+        <button onclick="generateTopics()">Generate Topics</button>
+        <ul id="topicsList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
